@@ -1,7 +1,7 @@
 ## Coming soon
 
 This project was created to practice responsive design.
-Landing page coming soon with video background and counter.
+Landing page coming soon with gif and counter.
 
 **Build with:**
 

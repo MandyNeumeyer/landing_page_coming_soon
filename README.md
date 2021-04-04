@@ -20,7 +20,7 @@ Landing page coming soon with gif and counter.
 &nbsp;
 </p>
 
-[Live Demo](https://mandyneumeyer.github.io/coming_soon/)
+[Live Demo](https://mandyneumeyer.github.io/landing_page_coming_soon/)
 
 <img src="assets/cs-desk.gif">
 

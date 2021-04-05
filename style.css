@@ -7,8 +7,9 @@
   font-family: 'Orbitron', sans-serif;
 }
 body{
-  height: 100vh;
+  min-height: 100vh;
 }
+
 /* Heading Start */
 h1{
   font-size: 4rem;
@@ -42,8 +43,12 @@ h1{
 /* Heading End */
 
 /* Social Media Links Start */
-ul{
-  position:fixed;
+footer{
+  height:10vh;
+}
+
+ul{ 
+  position:sticky;
   bottom: 0;
   width: 100%;
   display: flex; 
@@ -130,7 +135,9 @@ h3{
     flex-direction: column;
   }
   ul{
+    display: flex;
     justify-content: center;  
+    align-items: center;
   } 
 }
 

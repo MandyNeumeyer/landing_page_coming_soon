@@ -21,8 +21,8 @@ h1{
   background-color: black;
   margin-top: 1.5rem;
   padding:1.5rem;
-  border-top:0.5rem outset #ff4da6;
-  border-bottom:0.5rem outset #ff4da6;
+  border-top:0.5rem inset #ff4da6;
+  border-bottom:0.5rem inset #ff4da6;
 
 }
 
@@ -70,7 +70,7 @@ ul li{
   justify-content: center;
   align-items: center;
   border-radius:50% ; 
-  border:0.3rem solid #ff4da6;
+  border:0.3rem inset #ff4da6;
 }
 /* Social Media Links End */
 

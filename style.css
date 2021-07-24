@@ -7,13 +7,14 @@
   font-family: 'Orbitron', sans-serif;
 }
 body{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Heading Start */
 header{
   height:20vh;
 }
+
 h1{
   font-size: 3.6rem;
   font-weight: 500;
@@ -48,29 +49,27 @@ footer{
   height:10vh;
 }
 
-ul{ 
-  position:sticky;
-  bottom: 0;
-  width: 100%;
+ul{  
   display: flex; 
   justify-content:flex-end;
   list-style: none;
 }
 ul li{
   margin:1.5rem;
+  
 }
 
 .fab {
   font-size: 2rem;
   color:white;
   background-color:rgb(27, 3, 37);
-  width:4rem;
-  height:4rem;
+  width:4.5rem;
+  height:4.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius:50% ; 
-  border:0.3rem inset #ff4da6;
+  border:0.3rem inset #ff4da6; 
 }
 /* Social Media Links End */
 
@@ -114,40 +113,93 @@ h3{
 
 /* countdown end */
 
-/* Media Queries Start */
-@media only screen and (max-width:1750px){
-  h1{
-    font-size: 3rem;
-  }
+@media only screen and (max-width:1575px){
+    h1{
+      font-size:2.8rem;
+    }
 }
 
-@media only screen and (max-width:1750px){
-  img{
-    width:550px;
-  }
-}
-
-
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1350px){
   h1{
     font-size: 2.3rem;
   }
   .container-center{
     flex-direction: column;
+    margin-top: 0rem;
   }
   ul{
-    display: flex;
     justify-content: center;  
-    align-items: center;
   } 
+  .fab{
+    width:4rem;
+    height:4rem;
+    font-size: 1.8rem;
+  }
 }
 
-@media only screen and (max-width:720px){
-  .ct{
-    width:8rem;
-  }
-  ul{
-    position:relative;
-    bottom:0;
+@media only screen and (max-width:900px){
+  h1{
+    font-size:1.9rem
   }
 }
+
+@media only screen and (max-width:700px){
+ .ct{
+   width:8rem;
+ }
+ .fab{
+   width:3.5rem;
+   height:3.5rem;
+   font-size: 1.7rem;
+ }
+  img{
+    width:500px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .ct{
+    width:6rem;
+    font-size: 1.5rem;
+  }
+  .smalltext{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size:1.6rem;
+  }
+
+  ul{
+    margin-top:1rem;
+  }
+  .fab{
+    width:3.0rem;
+    height:3.0rem;
+    font-size: 1.5rem;
+  }
+   img{
+     width:400px;
+   }
+ }
+
+ @media only screen and (max-width:475px){
+   h1{
+     font-size: 1.6rem;
+     margin-top: 0.5rem;
+   }
+  .ct{
+    width:4.5rem;
+    font-size: 1.2rem;
+  }
+  .smalltext{
+    font-size: 0.5rem;
+  }
+  .fab{
+    width:2.8rem;
+    height:2.8rem;
+    font-size: 1.5rem;
+  }
+   img{
+     width:380px;
+   }
+ }

@@ -7,13 +7,14 @@
   font-family: 'Orbitron', sans-serif;
 }
 body{
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* Heading Start */
 header{
   height:20vh;
 }
+
 
 h1{
   font-size: 3.6rem;
@@ -45,14 +46,14 @@ h1{
 /* Heading End */
 
 /* Social Media Links Start */
-footer{
-  height:10vh;
-}
 
 ul{  
+  position:fixed;
   display: flex; 
   justify-content:flex-end;
   list-style: none;
+  bottom:0;
+  right:0;
 }
 ul li{
   margin:1.5rem;
@@ -75,7 +76,6 @@ ul li{
 
 /* img & countdown */
 .container-center{
-  margin-top:8rem;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -129,6 +129,7 @@ h3{
   }
   ul{
     justify-content: center;  
+    position:static
   } 
   .fab{
     width:4rem;

@@ -14,7 +14,7 @@ Landing page coming soon with gif and counter.
 [Live Demo](https://mandyneumeyer.github.io/landing_page_coming_soon/)
 
 <div align="center">
-<img src="assets/cs-desk.gif" width="70%">
+<img src="assets/desktop.gif" width="70%">
 
 <img src="assets/phone-cs.png" width="30%">
 </div>

@@ -1,5 +1,5 @@
 
-let deadline = 'Jul 25 2021 18:40:18 GMT-0400';
+let deadline = 'Jul 25 2022 18:40:18 GMT-0400';
 function time_remaining(endtime){
 	let t = Date.parse(endtime) - Date.parse(new Date());
 	let seconds = Math.floor( (t/1000) % 60 );

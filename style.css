@@ -120,6 +120,7 @@ h3{
 }
 
 @media only screen and (max-width:1350px){
+  bod
   h1{
     font-size: 2.3rem;
   }
@@ -135,6 +136,9 @@ h3{
     width:4rem;
     height:4rem;
     font-size: 1.8rem;
+  }
+    img{
+    width:500px;
   }
 }
 
